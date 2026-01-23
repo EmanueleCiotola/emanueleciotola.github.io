@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- TITOLO & SEO -->
+  <title>Emanuele Ciotola | Designing Logic. Leading Change.</title>
+  <meta name="description" content="Portfolio di Emanuele Ciotola: Software Developer specializzato in Flutter (Dart), Java e SQL. Studente di Informatica e Rappresentante degli Studenti del DIETI, Federico II.">
+  <meta name="keywords" content="Emanuele Ciotola, Software Developer, Rappresentante DIETI, Federico II, Unina, Flutter, Dart, Java, SQL, PL/SQL, Firebase, JavaFX, Figma, Git, Informatica Napoli">
+  <meta name="author" content="Emanuele Ciotola">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://emanueleciotola.github.io/">
+  <meta name="google-site-verification" content="W4m6-Cg3xkpEOSg0rzPIgE6C3gl7yw95aOWXSdd87gM" />
+
+  <!-- OPEN GRAPH (LinkedIn/WhatsApp) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Emanuele Ciotola | Designing Logic. Leading Change.">
+  <meta property="og:description" content="Dal codice alla rappresentanza studentesca. Scopri i miei progetti e competenze.">
+  <meta property="og:url" content="https://emanueleciotola.github.io/">
+  <meta property="og:image" content="assets/social-image.webp">
+  <meta property="og:site_name" content="Emanuele Ciotola Portfolio">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- TWITTER CARDS -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Emanuele Ciotola | Designing Logic. Leading Change.">
+  <meta name="twitter:description" content="Sviluppatore Software, studente Unina e Rappresentante degli Studenti del DIETI.">
+  <meta name="twitter:image" content="assets/social-image.webp">
+
+  <!-- FAVICONS -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png?v=2"> 
+  <link rel="alternate icon" type="image/x-icon" href="favicon.ico?v=2">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+
+  <!-- MOBILE THEME -->
+  <meta name="theme-color" content="#0f172a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- STYLES -->
+  <link rel="preload" fetchpriority="high" as="image" href="assets/FP.webp" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emanuele Ciotola",
+    "url": "https://emanueleciotola.github.io/",
+    "image": "https://emanueleciotola.github.io/favicon-96.png",
+    "jobTitle": "Software Developer",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Università degli Studi di Napoli Federico II"
+    },
+    "knowsAbout": ["Software Development", "Flutter", "Dart", "Java", "SQL", "PL/SQL", "Firebase", "UI/UX Design"],
+    "sameAs": [
+      "https://github.com/emanueleciotola",
+      "https://www.linkedin.com/in/emanuele-ciotola/",
+      "https://www.instagram.com/ema_ciotola",
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Sfondo Ambientale -->
+  <div class="background-glow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">EC.</a>
+      
+      <button class="hamburger" aria-label="Menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#cv" class="nav-link">Percorso</a></li>
+          <li><a href="#projects" class="nav-link">Progetti</a></li>
+          <li class="mobile-only"><a href="mailto:ema.ciotola.dev@gmail.com" class="nav-link">Contattami</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-actions">
+        <a href="mailto:ema.ciotola.dev@gmail.com" class="btn-nav-contact">Contattami</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="container section-spy">
+      <div class="hero-content">
+        <div class="role-badge">
+          <span class="dot"></span>
+          <span>Developer & Rappresentante DIETI</span>
+        </div>
+        
+        <h1>Make it work. <br> <span class="text-gradient">Make it good.</span></h1>
+        
+        <p class="hero-desc">
+          Ciao, sono <strong>Emanuele Ciotola</strong>.
+          Studio Informatica alla Federico II e rappresento gli studenti del DIETI.
+          Adoro far funzionare meglio le cose.
+        </p>
+
+        <div class="hero-socials">
+          <a href="https://github.com/emanueleciotola" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+          <a href="https://www.linkedin.com/in/emanuele-ciotola" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          <a href="https://www.instagram.com/ema_ciotola" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="instagram" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a>
+          <a href="mailto:ema.ciotola.dev@gmail.com" class="social-icon" aria-label="Email"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg></a>
+        </div>
+
+        <div class="cta-wrapper">
+          <a href="#projects" class="btn btn-primary">Vedi progetti</a>
+          <a href="#cv" class="btn btn-outline">Scarica CV</a>
+        </div>
+      </div>
+
+      <!-- Foto Stile Post-it -->
+      <div class="hero-visual">
+        <div class="image-frame">
+          <span class="fallback-msg profile-msg">Foto profilo<br>non disponibile</span>
+          <img src="assets/FP.webp" alt="Emanuele Ciotola - Sviluppatore Software e Studente Federico II" onerror="this.style.display='none'" width="400" height="400" fetchpriority="high" oncontextmenu="return false;">
+        </div>
+        <div class="floating-icon-box"><div class="floating-icon icon-1"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-2"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg></div></div>
+        <div class="floating-icon icon-2"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg></div>
+      </div>
+    </section>
+
+    <!-- MARQUEE SKILLS -->
+    <div class="marquee-strip" oncontextmenu="return false;">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span>DART • FLUTTER • FIREBASE • JAVA • JAVAFX • SQL • PL/SQL • C • C++ • JAVASCRIPT • HTML5 • CSS3 • GIT • GITHUB • GOOGLE SEARCH CONSOLE • LINUX • WINDOWS • </span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>DART • FLUTTER • FIREBASE • JAVA • JAVAFX • SQL • PL/SQL • C • C++ • JAVASCRIPT • HTML5 • CSS3 • GIT • GITHUB • GOOGLE SEARCH CONSOLE • LINUX • WINDOWS • </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION (Card Statiche) -->
+    <section id="about" class="container section-spacing section-spy">
+      <h2 class="section-title">About Me</h2>
+      <div class="bento-grid">
+        <!-- Card Informativa (NON CLICCABILE) -->
+        <div class="info-card static-glass">
+          <div class="card-icon-bg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 2 0 0 0 12 0v-3.5"/></svg></div>
+          <h3>Studente Unina</h3>
+          <p>Per affrontare problemi complessi servono basi solide. Il mio percorso universitario ha il fine di costruirle.</p>
+        </div>
+        <!-- Card DIETI -->
+        <div class="info-card static-glass dieti-border">
+          <div class="card-icon-bg dieti-bg"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3>Rappresentante</h3>
+          <p>Guidato dalla concretezza. Trovo soluzioni reali ai problemi e faccio&nbsp;da cerniera tra studenti e istituzioni.</p>
+        </div>
+        <!-- Card Dev -->
+        <div class="info-card static-glass dev-border">
+          <div class="card-icon-bg dev-bg"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg></div>
+          <h3>Developer</h3>
+          <p>Da sempre attratto dall'innovazione e dalla tecnologia. Ogni progetto è una sfida logica da affrontare.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV SECTION (Timeline Verticale) -->
+    <section id="cv" class="container section-spacing section-spy">
+      <div class="section-header">
+        <h2 class="section-title">Il mio Percorso</h2>
+        <p class="section-subtitle">Dalla formazione accademica&nbsp;alla rappresentanza studentesca.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        
+        <!-- Item 1: Attuale -->
+        <div class="timeline-item left reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="date">2025 - Presente</span>
+            <h3>Rappr. degli Studenti</h3>
+            <h4>Dip. DIETI - Federico II</h4>
+            <p>Un’esperienza che mi ha formato nel dialogo con figure&nbsp;istituzionali e nella comprensione delle dinamiche organizzative del mondo universitario.</p>
+            <div class="skills-chips">
+              <span>Advocacy</span><span>Problem Solving</span><span>Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Università -->
+        <div class="timeline-item right reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="date">2023 - Presente</span>
+            <h3>Laurea in Informatica</h3>
+            <h4>Università Federico II di Napoli</h4>
+            <p>Un percorso che mi ha permesso di perfezionare l'approccio allo studio e la capacità di gestire sfide complesse grazie a disciplina e costanza.</p>
+            <div class="skills-chips">
+              <span>Software Design</span><span>Algo</span><span>Data Structures</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Diploma -->
+        <div class="timeline-item left reveal-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="date">2018 - 2023</span>
+            <h3>Diploma Scientifico</h3>
+            <h4>Liceo Filippo Silvestri</h4>
+            <p>Gli anni di formazione personale durante cui ho costruito&nbsp;le fondamenta del mio percorso futuro e ho imparato il valore della collaborazione.</p>
+            <div class="skills-chips"><span>Reasoning</span><span>Critical thinking</span><span>Teamwork</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download CV Button -->
+      <div class="cv-download-wrapper">
+        <a href="assets/CV_EmanueleCiotola.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-icon-text reveal-on-scroll">
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" class="lucide lucide-download"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg> Scarica CV Completo (PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="container section-spacing section-spy">
+      <h2 class="section-title">Progetti Selezionati</h2>
+      <div class="projects-list">
+  
+        <!-- Progetto 1 -->
+        <div class="project-wrapper">
+          <article class="project-row glass-interactive">
+            <div class="project-text">
+              <div class="project-head">
+                <h3>Libreria strutture dati</h3>
+              </div>
+              <p>Una libreria Java completa per la gestione di Vettori, Liste, Chain, Stack e Code con un'architettura che enfatizza l'astrazione e la modularità. Il tutto è validato da una suite di test rigorosa.</p>
+              <div class="tags">
+                <span>Java</span><span>JUnit</span><span>Data Structures</span>
+              </div>
+              <a href="https://github.com/EmanueleCiotola/LibreriaStruttureDati.git" class="cta-text" target="_blank" rel="noopener noreferrer">Vedi su GitHub <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            </div>
+            <div class="project-visual gradient-1">
+              <span class="fallback-msg">Anteprima Libreria Strutture<br>Dati non disponibile</span>
+              <img src="assets/libreriaStruttureDati.webp" alt="Anteprima Libreria Strutture Dati" onerror="this.style.display='none'" width="600" height="400" loading="lazy" decoding="async">
+            </div>
+          </article>
+        </div>
+
+        <!-- Progetto 2 -->
+        <div class="project-wrapper">
+          <article class="project-row glass-interactive">
+            <div class="project-text">
+              <div class="project-head">
+                <h3>Noverflow</h3>
+              </div>
+              <p>Una web application progettata per lo studio dei sistemi di numerazione e delle rappresentazioni binarie. Integra conversioni di base, traduzioni tra codifiche binarie e operazioni binarie.</p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>Javascript</span>
+              </div>
+              <a href="https://github.com/EmanueleCiotola/Noverflow.git" class="cta-text" target="_blank" rel="noopener noreferrer">Vedi su GitHub <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            </div>
+            <div class="project-visual gradient-2">
+              <span class="fallback-msg">Anteprima Noverflow<br>non disponibile</span>
+              <img src="assets/noverflow.webp" alt="Anteprima Noverflow" onerror="this.style.display='none'" width="600" height="400" loading="lazy" decoding="async">
+            </div>
+          </article>
+        </div>
+
+        <!-- Progetto 3 -->
+        <div class="project-wrapper">
+          <article class="project-row glass-interactive">
+              <div class="project-text">
+                <div class="project-head">
+                  <h3>Database Biogarden</h3>
+                </div>
+                <p>Un sistema di persistenza progettato per la massima affidabilità. Un'architettura PL/SQL che non si limita ad archiviare dati, ma ne protegge attivamente l'integrità, garantendo coerenza assoluta.</p>
+                <div class="tags">
+                  <span>PL/SQL</span><span>Backend</span><span>Database Design</span>
+                </div>
+                <a href="https://github.com/EmanueleCiotola/UninaBiogardenDatabase.git" class="cta-text" target="_blank" rel="noopener noreferrer">Vedi su GitHub <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              </div>
+              <div class="project-visual gradient-3">
+                <span class="fallback-msg">Anteprima Database Biogarden<br>non disponibile</span>
+                <img src="assets/dbBiogarden.webp" alt="Anteprima Database Biogarden" onerror="this.style.display='none'" width="600" height="400" loading="lazy" decoding="async">
+              </div>
+            </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h3>EC.</h3>
+        <p>Code. Refine. Improve.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/emanueleciotola" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/emanuele-ciotola/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com/ema_ciotola/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="mailto:ema.ciotola.dev@gmail.com">Email</a>
+      </div>
+      <div class="copyright">© 2025 Emanuele Ciotola. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
